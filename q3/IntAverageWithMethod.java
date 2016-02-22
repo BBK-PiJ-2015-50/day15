@@ -25,7 +25,7 @@ public class IntAverageWithMethod {
 
     private int ValidInput() {
         while (true) {
-            System.out.println("please enter an int");
+            System.out.println("Please enter an integer");
             try {
                 Scanner input = new Scanner(System.in);
                 return input.nextInt();
